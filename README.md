@@ -1,59 +1,99 @@
-# NgPokemonApp
+# 📘 Pokédex Angular
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.0.6.
+Un projet Pokédex développé avec **Angular 18** pour explorer et apprendre les principales fonctionnalités d'Angular. L'application permet de naviguer parmi les Pokémon, voir leurs détails, et tirer parti d’une architecture moderne basée sur les composants, le routing, les services, etc.
 
-## Development server
+🚀 Déployé sur **Firebase Hosting** : [Voir le Pokédex en ligne](https://ton-url.firebaseapp.com)
 
-To start a local development server, run:
+## 🔍 Fonctionnalités
+
+- 🔄 Liste des Pokémon avec pagination
+- 🔎 Recherche par nom
+- 📄 Détail d’un Pokémon avec ses stats, types, images, etc.
+- 🌙 Mode sombre (si applicable)
+- 🧭 Navigation fluide grâce au **Router Angular**
+- 📦 Appels API via **HttpClient** (PokéAPI)
+- 🔥 Déploiement via **Firebase Hosting**
+
+## 🛠️ Technologies utilisées
+
+- [Angular 18](https://angular.io)
+- [TypeScript](https://www.typescriptlang.org/)
+- [RxJS](https://rxjs.dev/)
+- [PokéAPI](https://pokeapi.co/)
+- [Firebase Hosting](https://firebase.google.com/docs/hosting)
+
+## 📦 Installation et développement local
+
+### 1. Cloner le dépôt
+
+```bash
+git clone https://github.com/ton-utilisateur/mon-pokedex-angular.git
+cd mon-pokedex-angular
+```
+
+### 2. Installer les dépendances
+
+```bash
+npm install
+```
+
+### 3. Lancer le serveur de développement
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Accède ensuite à l'application sur `http://localhost:4200`.
 
-## Code scaffolding
+## 🚀 Déploiement sur Firebase
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+### Étapes de déploiement
 
-```bash
-ng generate component component-name
-```
+1. Installer Firebase CLI (si ce n’est pas déjà fait) :
+   ```bash
+   npm install -g firebase-tools
+   ```
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+2. Se connecter à Firebase :
+   ```bash
+   firebase login
+   ```
 
-```bash
-ng generate --help
-```
+3. Initialiser Firebase dans le projet :
+   ```bash
+   firebase init
+   ```
 
-## Building
+   > Choisir **Hosting**, associer à un projet existant ou en créer un, et configurer `dist/pokedex` comme dossier public (à adapter selon le nom du projet Angular).
 
-To build the project run:
+4. Construire le projet Angular :
+   ```bash
+   ng build --prod
+   ```
 
-```bash
-ng build
-```
+5. Déployer :
+   ```bash
+   firebase deploy
+   ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+## 🧪 Améliorations possibles
 
-## Running unit tests
+- ✅ Ajout d’un système de favoris
+- ✅ Filtrage par type de Pokémon
+- ✅ Internationalisation (i18n)
+- ✅ Tests unitaires et d’intégration
+- ✅ Progressive Web App (PWA)
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+## 📸 Captures d'écran
 
-```bash
-ng test
-```
+> *(Ajoute ici quelques screenshots de ton application si tu veux)*
 
-## Running end-to-end tests
 
-For end-to-end (e2e) testing, run:
+## 📄 Licence
 
-```bash
-ng e2e
-```
+Ce projet est open-source et disponible sous la licence [MIT](LICENSE).
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+---
 
-## Additional Resources
+Développé avec ❤️ pour apprendre Angular.
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
