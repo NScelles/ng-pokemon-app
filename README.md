@@ -2,7 +2,7 @@
 
 Un projet Pokédex développé avec **Angular 18** pour explorer et apprendre les principales fonctionnalités d'Angular. L'application permet de naviguer parmi les Pokémon, voir leurs détails, et tirer parti d’une architecture moderne basée sur les composants, le routing, les services, etc.
 
-🚀 Déployé sur **Firebase Hosting** : [Voir le Pokédex en ligne](https://ton-url.firebaseapp.com)
+🚀 Déployé sur **Firebase Hosting** : [Voir le Pokédex en ligne](https://ng-pokemon-app-98632.web.app)
 
 ## 🔍 Fonctionnalités
 
@@ -83,10 +83,6 @@ Accède ensuite à l'application sur `http://localhost:4200`.
 - ✅ Internationalisation (i18n)
 - ✅ Tests unitaires et d’intégration
 - ✅ Progressive Web App (PWA)
-
-## 📸 Captures d'écran
-
-> *(Ajoute ici quelques screenshots de ton application si tu veux)*
 
 
 ## 📄 Licence
