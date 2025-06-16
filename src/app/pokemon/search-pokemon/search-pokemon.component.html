@@ -1,0 +1,23 @@
+<!-- Chapitre 10 : Effectuer des requêtes HTTP standards -->
+<div class="row" >
+    <div class="col s12 m6 offset-m3">
+      <div (blur)="show(false)" class="card">
+        <div class="card-content">
+          <div class="input-field">
+            <input #searchBox 
+            (focus)="show(true)" 
+             
+            (keyup)="search(searchBox.value)"
+              placeholder="Rechercher un pokémon"/>
+          </div>
+          
+          <div *ngIf="isShow" class="collection">
+            <div *ngFor="let pokemon of pokemons$ | async"
+              (click)="goToDetail(pokemon)" class="collection-item">
+              {{ pokemon.name }}
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>

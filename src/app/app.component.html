@@ -1,0 +1,22 @@
+<nav>
+    <div class="nav-wrapper row teal">
+        <a (click)="goToPokemonList()" class="brand-logo  hoverable center">Pokédex</a>
+        <a (click)="goToLogin()" *ngIf="!auth.isLoggedIn" class="offset-m10 right m2 offset-s8 s4 hoverable">Se connecter</a>
+        <a (click)="deconnection()" *ngIf="auth.isLoggedIn" class="offset-m10 m2 offset-s8 s4 hoverable">Se déconnecter</a>
+    </div>
+</nav>
+
+<router-outlet></router-outlet>
+<!-- Exercice 1
+<input 
+    #input
+    (keyup.enter)="selectPokemon(input.value)"
+    type="number" />
+
+<p *ngIf="pokemonSelected">  {{pokemonSelected.name}} </p>
+
+<p *ngIf="!pokemonSelected"> Y'a Rien</p> -->
+
+
+
+

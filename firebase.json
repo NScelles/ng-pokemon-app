@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "ng-pokemon-app-98632",
+    "public": "dist/ng-pokemon-app",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

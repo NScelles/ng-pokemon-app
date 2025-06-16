@@ -1,0 +1,18 @@
+
+
+
+
+
+
+
+.ng-valid[required]{
+    border-left: Spx solid #42a948;
+}
+
+.ng-invalid:not(form){
+    border-left: Spx solid #A94442;
+}
+
+.btn[disabled]{
+    background-color: gray !important;
+}
