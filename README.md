@@ -186,5 +186,3 @@ Sous licence **MIT** — consulte le fichier `LICENSE` pour les détails.
 - **NScelles**
 
 ---
-
-*Bon code et que tes Pokémon prospèrent !*
